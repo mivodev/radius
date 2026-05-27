@@ -1,0 +1,17 @@
+{
+    "name": "mivodev/radius",
+    "description": "Mivo Enterprise Core RADIUS Database Integration",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Mivo\\Radius\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mivo\\Radius\\RadiusServiceProvider"
+            ]
+        }
+    }
+}
