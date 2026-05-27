@@ -3,10 +3,25 @@
     "description": "A pure PHP RADIUS protocol client (UDP) for Mivo Enterprise. Framework-Agnostic.",
     "type": "library",
     "license": "MIT",
+    "homepage": "https://github.com/mivodev/radius",
+    "support": {
+        "issues": "https://github.com/mivodev/radius/issues",
+        "source": "https://github.com/mivodev/radius"
+    },
+    "keywords": [
+        "radius",
+        "udp",
+        "coa",
+        "pod",
+        "rfc2865",
+        "mivo"
+    ],
     "authors": [
         {
             "name": "Mivo Enterprise",
-            "email": "developer@mivo.id"
+            "email": "mivo@dev.dyzulk.com",
+            "homepage": "https://github.com/mivodev",
+            "role": "Developer"
         }
     ],
     "require": {
