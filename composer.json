@@ -1,14 +1,23 @@
 {
     "name": "mivodev/radius",
-    "description": "Mivo Enterprise Core RADIUS Database Integration (Framework-Agnostic)",
+    "description": "A pure PHP RADIUS protocol client (UDP) for Mivo Enterprise. Framework-Agnostic.",
     "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mivo Enterprise",
+            "email": "developer@mivo.id"
+        }
+    ],
     "require": {
-        "php": "^8.2 | ^8.3",
-        "ext-pdo": "*"
+        "php": "^8.2",
+        "ext-sockets": "*"
     },
     "autoload": {
         "psr-4": {
             "Mivo\\Radius\\": "src/"
         }
-    }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
 }
